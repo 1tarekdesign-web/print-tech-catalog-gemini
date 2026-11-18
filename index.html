@@ -169,7 +169,7 @@
             background-color: var(--color-kiwi-dark);
             color: var(--color-white);
             padding: 24px 0;
-            margin-bottom: 16px;
+            margin: 24px 0 0;
             text-align: center;
         }
 
@@ -731,6 +731,22 @@
         </div>
     </header>
 
+
+    <div class="filters-wrapper">
+        <div class="container">
+            <div class="filters" id="filtersContainer">
+                <!-- Filters rendered by JS -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="results-counter" id="resultsCount"></div>
+        <main class="product-grid grid-mode" id="productGrid">
+            <!-- Products rendered by JS -->
+        </main>
+    </div>
+
     <section class="info-section">
         <div class="container info-grid">
             <div class="info-item">
@@ -751,21 +767,6 @@
             </div>
         </div>
     </section>
-
-    <div class="filters-wrapper">
-        <div class="container">
-            <div class="filters" id="filtersContainer">
-                <!-- Filters rendered by JS -->
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="results-counter" id="resultsCount"></div>
-        <main class="product-grid grid-mode" id="productGrid">
-            <!-- Products rendered by JS -->
-        </main>
-    </div>
 
     <footer class="footer">
         <div class="container">
